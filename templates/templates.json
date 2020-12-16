@@ -1,27 +1,27 @@
 {
     "templates": [{
             "name": "html",
-            "url": "https://trapias.github.io/assets/TrelloExport/html.twig",
+            "url": "https://raw.githubusercontent.com/robflaherty/TrelloExport/master/templates/html.twig",
             "description": "Default HTML",
-            "css": "https://trapias.github.io/assets/TrelloExport/default.css"
+            "css": "https://raw.githubusercontent.com/robflaherty/TrelloExport/master/templates/default.css"
         },
         {
             "name": "bibliography",
-            "url": "https://trapias.github.io/assets/TrelloExport/bibliography.twig",
+            "url": "https://raw.githubusercontent.com/robflaherty/TrelloExport/master/templates/bibliography.twig",
             "description": "Bibliography HTML",
-            "css": "https://trapias.github.io/assets/TrelloExport/bibliography.css"
+            "css": "https://raw.githubusercontent.com/robflaherty/TrelloExport/master/templates/bibliography.css"
         },
         {
             "name": "newsletter",
-            "url": "https://trapias.github.io/assets/TrelloExport/newsletter.twig",
+            "url": "https://raw.githubusercontent.com/robflaherty/TrelloExport/master/templates/newsletter.twig",
             "description": "Newsletter with buttons HTML",
-            "css": "https://trapias.github.io/assets/TrelloExport/newsletter.css"
+            "css": "https://raw.githubusercontent.com/robflaherty/TrelloExport/master/templates/newsletter.css"
         },
         {
             "name": "newsletter2",
-            "url": "https://trapias.github.io/assets/TrelloExport/newsletter2.twig",
+            "url": "https://raw.githubusercontent.com/robflaherty/TrelloExport/master/templates/newsletter2.twig",
             "description": "Newsletter with links HTML",
-            "css": "https://trapias.github.io/assets/TrelloExport/newsletter.css"
+            "css": "https://raw.githubusercontent.com/robflaherty/TrelloExport/master/templates/newsletter.css"
         }
     ]
 }
