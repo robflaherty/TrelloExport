@@ -22,7 +22,7 @@
             {% set organizationName = card.organizationName %}
             {% set curList = card.listName %}
             {% if prevList != curList %}
-                <h2>// {{ curList }}</h2>
+                <h2>{{ curList }}</h2>
             {% endif %}
             {% set prevList = card.listName %}
             {# find attachment which is an URL and set to variable 'theLink' #}
