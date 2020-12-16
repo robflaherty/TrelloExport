@@ -38,7 +38,8 @@
             <div class="row">
                 <div class="col">
                     <div class="card">
-                        <h3><a target="_blank" href="{{ theLink }}">{{ card.title }}</a></h3>        
+                        <h3><a target="_blank" href="{{ theLink }}">{{ card.title }}</a></h3>
+                        <div class="details">
                         <div class="description">
                             <p class="text">{{ card.cardDescription|linkdoi }}</p>
                         </div>
@@ -93,6 +94,8 @@
                         </div>
                         {% endif %}
                     </div>
+                                            </div>
+
              </div>
         </div>
         {% endfor %}
