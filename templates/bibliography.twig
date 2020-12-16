@@ -22,6 +22,7 @@
             {% set organizationName = card.organizationName %}
             {% set curList = card.listName %}
             {% if prevList != curList %}
+            <div class="list">
                 <h2>{{ curList }}</h2>
             {% endif %}
             {% set prevList = card.listName %}
@@ -99,6 +100,7 @@
              </div>
         </div>
         {% endfor %}
+        </div>
 </div>
 </body>
 </html>
